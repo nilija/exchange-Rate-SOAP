@@ -16,10 +16,10 @@ try {
     ]);
     $client->decode_utf8 = 0;
     // OVDE ispravno UserName (sa velikim N)
-    $auth_params = [
-        'UserName' => 'panmotor',
-        'Password' => 'W831fyVi',
-        'LicenceID' => '6a5eca8c-7ab6-4de1-a669-45f6626e905c'
+    $auth_params = [  // kredencijali dobijeni kod registrovanja usluge NBS
+        'UserName' => '**********',
+        'Password' => '**********',
+        'LicenceID' => '**********'
     ];
 
     $header = new SoapHeader(
@@ -72,9 +72,9 @@ try {
 
 // Tražene valute
         $servername = "localhost";
-        $username = "root";
-        $password = "ilija";
-        $dbname = "panmotortest";
+        $username = "********";
+        $password = "********";
+        $dbname = "**********";
 
 // Konektovanje na bazu
         $conn = mysqli_connect($servername, $username, $password, $dbname);

@@ -1,6 +1,7 @@
 
 ---
-
+This version uses the official **SOAP web service** provided by the National Bank of Serbia.  
+Designed for backend systems, data automation, and deeper integrations.
 ### 🧼 `README-soap.md` (za SOAP verziju)
 
 ```markdown
